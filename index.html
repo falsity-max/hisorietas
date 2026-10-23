@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+ <header>
+    <h1>exploradores pokemon</h1>
+ </header>
+
+ <main>
+   <!--controles invisibles para los paneles -->
+   <input type="radio" name="panel" id="panel1" checked>
+   <input type="radio" name="panel" id="panel2">
+   <input type="radio" name="panel" id="panel3">
+   <input type="radio" name="panel" id="panel4">
+   <input type="radio" name="panel" id="panel5"> 
+
+   <!--panel 1-->
+   <div class="panel" id="content panel1">
+    <img src="imagenes/PK_20_013560_02 (1).webp" alt="ataque">
+    <h2>el gran ataque</h2>
+    <p>un entrenador con su pokemon empienzan su primera batalla</p>
+    <div class="navigation">
+      <label for="panel2" class="button">siguiente</label>
+   </div>
+ </div>
+   
+    <!--panel 2-->
+    <div class="panel" id="content panel2">
+        <img src="imagenes/lux.jfif" alt="conta ataque">
+        <h2>el contra ataque</h2>
+        <p>el amigo hace un ataque para vencer a su amigo</p>
+        <div class="navigation">
+            <label for="panel1" class="button">anterior</label>
+            <label for="panel3" class="button">siguiente</label>
+        </div>
+    </div>
+
+   
+ <!--panel 3-->
+    <div class="panel" id="content panel3">
+        <img src="imagenes/HE00kmEaEAAgggI.webp" alt="union">
+        <h2>la union</h2>
+        <p>un entrenador misterioso ataca a los dos y los dos amigos unen fuerzas ara detenerlos</p>
+        <div class="navigation">
+            <label for="panel2" class="button">anterior</label>
+            <label for="panel4" class="button">siguiente</label>
+        </div>
+    </div>
+
+
+<!--panel 4-->
+    <div class="panel" id="content panel4">
+        <img src="imagenes/images.jfif" alt="la sorpresa">
+        <h2>la sorpresa</h2>
+        <p>el entrnador misterioso no esta solo viene con alguien mas combirtiendose en una batalla doble</p>
+        <div class="navigation">
+            <label for="panel3" class="button">anterior</label>
+            <label for="panel5" class="button">siguiente</label>
+         </div>
+    </div>
+
+
+ <!--panel 5-->
+    <div class="panel" id="content panel5">
+        <img src="imagenes/shiny-zygarde-into-z-a-v0-fcc9pc62i2rf1.webp" alt="la ayuda">
+        <h2>la ayuda</h2>
+        <p>los amigos perdieron y estan muy heridos cuando de pronto llega zigarde y con rayo catigo salava el mundo otrave</p>
+        <div class="navigation">
+            <label for="panel4" class="button">anterior</label>      
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
